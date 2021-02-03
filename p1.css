@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century;
+}
+section{
+background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),
+url(../resort/Images/hilton-moorea-lagoon-resort-spa-moorea-french-poly--110160-1.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    margin-top: 25px;
+}
+a:hover{
+    background-color: #fff;
+    color: black;
+    transition: 2s;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    font-size: 70px;
+    color: #fff;
+}
+.button{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px solid#ffff;
+    padding: 10px 30px;
+    color: white;
+}
